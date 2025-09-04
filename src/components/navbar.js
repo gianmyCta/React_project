@@ -1,0 +1,15 @@
+function Navbar() {
+    return (
+        <nav className="navbar navbar-dark bg-dark">
+            <div className="container-fluid">
+                <span className="navbar-brand mb-0 h1">Braciere</span>
+            </div>
+        </nav>
+    );
+}
+
+export default Navbar;
+//
+// export default Navbar;
+// Compare this snippet from src/App.js:
+// import Navbar from './components/navbar';
